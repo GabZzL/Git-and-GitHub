@@ -1,0 +1,12 @@
+"GIT AND GITHUB DIFFERENCES"
+----------------------------------------------------
+"git" : ""Git is a version control system that allows developers to track changes in their code"
+"GitHub" : ""GitHub is a web-based hosting service for git repositories."
+"a local repo (.git) and remote repo (GitHub)."
+
+"GIT REMOTE"
+
+git remote add origin <reference(HTTPS, SSH, etc)> : "To add a new remote, in the directory your repository is stored at."
+"A remote name, for example, origin" "A remote URL, for example, https://github.com/OWNER/REPOSITORY.git"
+
+git push -u origin main : "make a push to origin from the branch main in remote"
