@@ -25,4 +25,4 @@ git clone <ssh url> : "download the files in the remote repository"
 
 "GIT PUSH"
 ----------------------------------------------------
-
+git push : "Updates remote refs using local refs, while sending objects necessary to complete the given refs."
