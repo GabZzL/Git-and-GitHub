@@ -10,3 +10,10 @@ git remote add origin <reference(HTTPS, SSH, etc)> : "To add a new remote, in th
 "A remote name, for example, origin" "A remote URL, for example, https://github.com/OWNER/REPOSITORY.git"
 
 git push -u origin main : "make a push to origin from the branch main in remote"
+git push : "once the local server knowns about the remote server"
+
+"GIT FETCH AND PULL"
+----------------------------------------------------
+git fetch : "updates your remote-tracking branches. This operation is safe to run at any time since it never changes any of your local branches"
+git pull : "brings a local branch up-to-date with its remote version, while also updating your other remote-tracking branches"
+"git pull runs git fetch with the given parameters and then depending on configuration options or command line flags, will call either git rebase or git merge to reconcile diverging branches."
