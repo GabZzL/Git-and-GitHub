@@ -40,19 +40,7 @@ git push : "Updates remote refs using local refs, while sending objects necessar
 ----------------------------------------------------
 "Sync a fork of a repository to keep it up-to-date with the upstream repository"
 
-"GRAPHIC TOLS"
+"PAGES AND ACTIONS"
 ----------------------------------------------------
-GitHub Desktop
-GitKraken
-Source tree
-git fork
-
-"GIT FLOW"
-----------------------------------------------------
-"git-flow are a set of git extensions to provide high-level repository operations"
-git flow : "see the commands about flow"
-git flow init : "initialize git flow"
-git flow feature start <branch name> : "start a feature branch"
-git flow feature finish <branch name> : "close the feature branch"
-git flow release start <branch name> : "start a release branch"
-git flow release finish <branch name> : "close the release branch"
+"GitHub pages" : "You can create a GitHub Pages site in a new or existing repository."
+"GitHub actions" : "GitHub Actions makes it easy to automate all your software workflows"

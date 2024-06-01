@@ -111,3 +111,25 @@ git merge <childbranch name> : "A reintegration merge, also known as a back merg
 git branch -d <branch name> : "delete a branch, if it has already been pushed and merged with the remote branch"
 git branch -D <branch name> : "if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet."
 git checkout <hash> : "we could return to the delete branch by the hash from the commit"
+
+"GRAPHIC TOLS"
+----------------------------------------------------
+GitHub Desktop
+GitKraken
+Source tree
+git fork
+
+"GIT FLOW"
+----------------------------------------------------
+"git-flow are a set of git extensions to provide high-level repository operations"
+git flow : "see the commands about flow"
+git flow init : "initialize git flow"
+git flow feature start <branch name> : "start a feature branch"
+git flow feature finish <branch name> : "close the feature branch"
+git flow release start <branch name> : "start a release branch"
+git flow release finish <branch name> : "close the release branch"
+
+"GIT CHERRY-PICK AND REBASE"
+-------------------------------------------
+git cherry-pick <commit hash> : "it is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD."
+git rebase : "is the process of moving or combining a sequence of commits to a new base commit. "
