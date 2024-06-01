@@ -49,3 +49,7 @@ git fork
 
 "GIT FLOW"
 ----------------------------------------------------
+git flow : "see the commands about flow"
+git flow init : "initialize git flow"
+git flow feature start <branch name> : "start a feature branch"
+git flow feature finish <branch name> : "close the feature branch"
